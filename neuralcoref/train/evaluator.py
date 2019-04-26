@@ -14,9 +14,9 @@ from torch.autograd import Variable
 from torch.utils.data import DataLoader
 
 #from algorithm import Coref
-from neuralcoref.conllparser import FEATURES_NAMES
-from neuralcoref.dataset import NCBatchSampler, padder_collate
-from neuralcoref.compat import unicode_
+from neuralcoref.train.conllparser import FEATURES_NAMES
+from neuralcoref.train.dataset import NCBatchSampler, padder_collate
+from neuralcoref.train.compat import unicode_
 
 PACKAGE_DIRECTORY = os.path.dirname(os.path.abspath(__file__))
 
